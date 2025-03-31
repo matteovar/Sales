@@ -105,7 +105,7 @@ with cols_customer[0]:
         color_discrete_sequence=["indianred"],
         text_auto=True,
     )
-    fig.update_layout(bargap=0.2)
+
     st.plotly_chart(fig)
 
 with cols_customer[1]:
