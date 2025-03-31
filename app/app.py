@@ -111,7 +111,7 @@ with cols_customer[0]:
 with cols_customer[1]:
     st.markdown(
         """
-        ###  Valor Total dos Produtos no Dia
+        ###  Programa de Membros com Fidelidade x Nao Fidelidade
                 """
     )
     fig2 = px.pie(loyalty_counts, names="LoyaltyStatus", values="Count")
