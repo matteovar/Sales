@@ -46,9 +46,9 @@ with cols_card[2]:
     )
 with cols_card[3]:
     create_cards(
-        "Gênero Mais Predominante entre Consumidores",
+        "Gênero Predominante entre Consumidores",
         most_common_gender,
-        f"Valor Gasto pelo Gênero {most_common_gender}: R$ {most_gender:.2f}",
+        f"Maior Gasto Feito por {most_common_gender}: R$ {most_gender:.2f}",
     )
 
 
