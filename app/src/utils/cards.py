@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-def create_cards(title: str, value: str, index:int):
+def create_cards(title: str, value: str):
     """Função responsável por criar o car em html"""
 
     card_html = f"""
@@ -25,14 +25,10 @@ def create_cards(title: str, value: str, index:int):
             font-size: 30px;
             font-weight: 600;
         }}
-        .card-index{{
-            font-size: 16px;
-        }}
     </style>
     <div class="card">
         <div class='card-title'>{title}</div>
         <div class = 'card-value'>{value}</div>
-        <div class = 'card-index'>{index}</div>
     </div>
     
     """
