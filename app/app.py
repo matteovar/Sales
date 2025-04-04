@@ -27,14 +27,8 @@ with cols_card[2]:
     create_cards("Media dos pedidos", f"R$ {(total_sales/total_orders):,.2f}")
 with cols_card[3]:
     create_cards(
-<<<<<<< HEAD
-        "Loja com mais produtor vendidos",
+        "Loja com mais produtor vendido",
         f"{store}",
-=======
-        "Gênero Predominante entre Consumidores",
-        most_common_gender,
-        f"Maior Gasto Feito por {most_common_gender}: R$ {most_gender:.2f}",
->>>>>>> 055e1435f0b05753298825de19638ae81358b0e2
     )
 
 col_first = st.columns(2)
